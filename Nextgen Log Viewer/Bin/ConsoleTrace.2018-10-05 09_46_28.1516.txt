@@ -1,0 +1,634 @@
+2018-10-05 09:46:28.1516 Debug Invoking method {Manager.Launcher.LaunchManager: Models.NgConfig.NgConfigModel LoadNgConfig()}
+2018-10-05 09:46:28.1516 Debug Invoking method {Manager.Launcher.LaunchManager: Models.NgConfig.NgConfigModel LoadNgConfig()}
+2018-10-05 09:46:28.1516 Debug Invoking method {Manager.Launcher.LaunchManager: Models.NgConfig.NgConfigModel LoadNgConfig()}
+2018-10-05 09:46:28.1516 Debug Invoking method {Engine.NgConfig.NgConfigEngine: System.String FindNgConfig(System.String, System.String ByRef)}
+2018-10-05 09:46:28.1516 Trace Leaving NgConfigEngine:FindNgConfig...
+2018-10-05 09:46:28.1516 Info path=
+2018-10-05 09:46:28.1516 Trace Checking for NgConfig in C:\Windows\
+2018-10-05 09:46:28.1676 Trace NgConfig.ini located at: C:\Windows\NGConfig.ini
+2018-10-05 09:46:28.1676 Debug Leaving method { Engine.NgConfig.NgConfigEngine: System.String FindNgConfig(System.String, System.String ByRef)}
+2018-10-05 09:46:28.1676 Debug Invoking method {Engine.NgConfig.NgConfigEngine: Models.NgConfig.NgConfigModel GetNgConfigModel(System.String, System.Collections.Generic.List`1[System.String], Models.Vcp.FlagsAndOverrideModel)}
+2018-10-05 09:46:28.1676 Trace Entering NgConfigEngine:GetNgConfigModel...
+2018-10-05 09:46:28.2046 Info LocalDirectory = C:\NextgenServerDrive =C:\Nextgen\InstallVersionControlFile =NextGen.vcfTargetEnvironment =5.9..1.44ShellProgram =NGAppLauncher.exeShellProgramDescription = NextGenErrorLogFile =C:\NextGen\Err\Err.logShellProgramFirst =NMA\NextGen.ManagementAgent.Application.exeSource1 =NGDemo591UserId =saPassword = ******
+2018-10-05 09:46:28.2046 Trace Entering NgConfigEngine:ValidateNgConfig...
+2018-10-05 09:46:28.2046 Trace Verifying local Version Control File.
+2018-10-05 09:46:28.2046 Trace isNgConfigVailid = False
+2018-10-05 09:46:28.2046 Trace Leaving NgConfigEngine:ValidateNgConfig...
+2018-10-05 09:46:28.2046 Error Target Environment 5.9..1.44 does not Exist at specified location C:\Nextgen\Install
+2018-10-05 09:46:28.2046 Trace Leaving NgConfigEngine:GetNgConfigModel...
+2018-10-05 09:46:28.2046 Debug Leaving method { Engine.NgConfig.NgConfigEngine: Models.NgConfig.NgConfigModel GetNgConfigModel(System.String, System.Collections.Generic.List`1[System.String], Models.Vcp.FlagsAndOverrideModel)}
+2018-10-05 09:46:28.2046 Debug Leaving method { Manager.Launcher.LaunchManager: Models.NgConfig.NgConfigModel LoadNgConfig()}
+2018-10-05 09:46:28.2046 Debug Leaving method { Manager.Launcher.LaunchManager: Models.NgConfig.NgConfigModel LoadNgConfig()}
+2018-10-05 09:46:28.2046 Debug Leaving method { Manager.Launcher.LaunchManager: Models.NgConfig.NgConfigModel LoadNgConfig()}
+2018-10-05 09:46:28.2046 Debug Invoking method {Manager.Launcher.LaunchManager: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2046 Debug Invoking method {Manager.Launcher.LaunchManager: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2046 Debug Invoking method {Manager.Launcher.LaunchManager: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2046 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2046 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2046 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2046 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2336 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2336 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2336 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2336 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2336 Debug Leaving method { Manager.Launcher.LaunchManager: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2336 Debug Leaving method { Manager.Launcher.LaunchManager: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2336 Debug Leaving method { Manager.Launcher.LaunchManager: System.String GetDatabaseName()}
+2018-10-05 09:46:28.2336 Debug Invoking method {Manager.Launcher.LaunchManager: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Invoking method {Manager.Launcher.LaunchManager: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Invoking method {Manager.Launcher.LaunchManager: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Leaving method { Manager.Launcher.LaunchManager: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Leaving method { Manager.Launcher.LaunchManager: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Leaving method { Manager.Launcher.LaunchManager: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:28.2336 Debug Invoking method {Manager.Ncs.NcsManager: Void LoadNcsConfig(Models.Ncs.NcsUpgradeModel)}
+2018-10-05 09:46:28.2336 Debug Leaving method { Manager.Ncs.NcsManager: Void LoadNcsConfig(Models.Ncs.NcsUpgradeModel)}
+2018-10-05 09:46:28.2336 Debug Invoking method {Manager.NgCare.NgCareManager: Void LoadNgCareConfig(Models.NgCare.NgCareUpgradeModel)}
+2018-10-05 09:46:28.2336 Debug Leaving method { Manager.NgCare.NgCareManager: Void LoadNgCareConfig(Models.NgCare.NgCareUpgradeModel)}
+2018-10-05 09:46:28.2336 Trace NextGen Console Version: 3.0.0.29
+2018-10-05 09:46:28.2336 Trace Initializing navigation
+2018-10-05 09:46:28.2336 Info Deploy Only option selected as No.
+2018-10-05 09:46:28.2506 Debug Invoking method {Manager.DeploymentDashboard.Deployment: Void SetJsonEngine(Contract.Json.IJsonEngine)}
+2018-10-05 09:46:28.2506 Debug Leaving method { Manager.DeploymentDashboard.Deployment: Void SetJsonEngine(Contract.Json.IJsonEngine)}
+2018-10-05 09:46:28.2856 Debug Invoking method {Engine.DataLoader.DataLoader: Void RemoveController(Contract.DataLoader.IDataXferController)}
+2018-10-05 09:46:28.2856 Debug Leaving method { Engine.DataLoader.DataLoader: Void RemoveController(Contract.DataLoader.IDataXferController)}
+2018-10-05 09:46:28.2856 Debug Invoking method {Engine.DataLoader.DataLoader: Void AddController(Contract.DataLoader.IDataXferController)}
+2018-10-05 09:46:28.2856 Debug Leaving method { Engine.DataLoader.DataLoader: Void AddController(Contract.DataLoader.IDataXferController)}
+2018-10-05 09:46:28.2856 Debug Invoking method {Engine.DataLoader.DataLoader: Void PerformRecordCount(Boolean)}
+2018-10-05 09:46:28.2856 Debug Leaving method { Engine.DataLoader.DataLoader: Void PerformRecordCount(Boolean)}
+2018-10-05 09:46:28.3016 Debug Invoking method {Engine.DataLoader.DataLoader: Void RemoveController(Contract.DataLoader.IDataXferController)}
+2018-10-05 09:46:28.3016 Debug Leaving method { Engine.DataLoader.DataLoader: Void RemoveController(Contract.DataLoader.IDataXferController)}
+2018-10-05 09:46:28.3016 Debug Invoking method {Engine.DataLoader.DataLoader: Void AddController(Contract.DataLoader.IDataXferController)}
+2018-10-05 09:46:28.3016 Debug Leaving method { Engine.DataLoader.DataLoader: Void AddController(Contract.DataLoader.IDataXferController)}
+2018-10-05 09:46:28.3016 Debug Invoking method {Engine.DataLoader.DataLoader: Void PerformRecordCount(Boolean)}
+2018-10-05 09:46:28.3016 Debug Leaving method { Engine.DataLoader.DataLoader: Void PerformRecordCount(Boolean)}
+2018-10-05 09:46:28.3016 Debug Invoking method {Engine.DataLoader.DataLoader: Void RemoveController(Contract.DataLoader.IDataXferController)}
+2018-10-05 09:46:28.3016 Debug Leaving method { Engine.DataLoader.DataLoader: Void RemoveController(Contract.DataLoader.IDataXferController)}
+2018-10-05 09:46:28.3016 Debug Invoking method {Engine.DataLoader.DataLoader: Void AddController(Contract.DataLoader.IDataXferController)}
+2018-10-05 09:46:28.3016 Debug Leaving method { Engine.DataLoader.DataLoader: Void AddController(Contract.DataLoader.IDataXferController)}
+2018-10-05 09:46:28.3016 Debug Invoking method {Engine.DataLoader.DataLoader: Void PerformRecordCount(Boolean)}
+2018-10-05 09:46:28.3016 Debug Leaving method { Engine.DataLoader.DataLoader: Void PerformRecordCount(Boolean)}
+2018-10-05 09:46:28.3016 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3016 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3016 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3016 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3016 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3016 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3016 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3126 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3126 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3126 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3126 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3126 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3126 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3126 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Enterprise] GetEnterprise()}
+2018-10-05 09:46:28.3126 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.Practices] GetPractices()}
+2018-10-05 09:46:28.3126 Trace Initializing navigation
+2018-10-05 09:46:29.5106 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.Threading.Tasks.Task`1[System.Boolean] GetFileList()}
+2018-10-05 09:46:29.5106 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.Threading.Tasks.Task`1[System.Boolean] GetFileList()}
+2018-10-05 09:46:31.4546 Debug Invoking method {Engine.Json.JsonEngine: System.Collections.Generic.List`1[Models.UpgradeWizard.BridgeResourceModel] JsonToModel[List`1](System.String)}
+2018-10-05 09:46:31.4546 Debug Invoking method {Engine.Json.JsonEngine: System.Collections.Generic.List`1[Models.UpgradeWizard.BridgeResourceModel] JsonToModel[List`1](System.String)}
+2018-10-05 09:46:31.4946 Debug Leaving method { Engine.Json.JsonEngine: System.Collections.Generic.List`1[Models.UpgradeWizard.BridgeResourceModel] JsonToModel[List`1](System.String)}
+2018-10-05 09:46:31.4946 Debug Leaving method { Engine.Json.JsonEngine: System.Collections.Generic.List`1[Models.UpgradeWizard.BridgeResourceModel] JsonToModel[List`1](System.String)}
+2018-10-05 09:46:31.4946 Debug Invoking method {Engine.FileDownload.FileDownloadBase: Boolean GetNgCareFileList()}
+2018-10-05 09:46:32.5696 Debug Invoking method {Engine.Json.JsonEngine: Models.UpgradeWizard.NgCareResourceModel JsonToModel[NgCareResourceModel](System.String)}
+2018-10-05 09:46:32.5696 Debug Invoking method {Engine.Json.JsonEngine: Models.UpgradeWizard.NgCareResourceModel JsonToModel[NgCareResourceModel](System.String)}
+2018-10-05 09:46:32.5696 Debug Leaving method { Engine.Json.JsonEngine: Models.UpgradeWizard.NgCareResourceModel JsonToModel[NgCareResourceModel](System.String)}
+2018-10-05 09:46:32.5696 Debug Leaving method { Engine.Json.JsonEngine: Models.UpgradeWizard.NgCareResourceModel JsonToModel[NgCareResourceModel](System.String)}
+2018-10-05 09:46:32.5696 Debug Leaving method { Engine.FileDownload.FileDownloadBase: Boolean GetNgCareFileList()}
+2018-10-05 09:46:32.5836 Debug Invoking method {Manager.Launcher.LaunchManager: Boolean StartupLoadNgConfig(Models.UpgradeWizard.StartUpModel)}
+2018-10-05 09:46:32.5836 Debug Invoking method {Manager.Launcher.LaunchManager: Boolean StartupLoadNgConfig(Models.UpgradeWizard.StartUpModel)}
+2018-10-05 09:46:32.5836 Debug Invoking method {Manager.Launcher.LaunchManager: Boolean StartupLoadNgConfig(Models.UpgradeWizard.StartUpModel)}
+2018-10-05 09:46:32.5836 Debug Invoking method {Engine.NgConfig.NgConfigEngine: System.String FindNgConfig(System.String, System.String ByRef)}
+2018-10-05 09:46:32.5836 Trace Leaving NgConfigEngine:FindNgConfig...
+2018-10-05 09:46:32.5836 Info path=
+2018-10-05 09:46:32.5836 Trace Checking for NgConfig in C:\Windows\
+2018-10-05 09:46:32.5836 Trace NgConfig.ini located at: C:\Windows\NGConfig.ini
+2018-10-05 09:46:32.5836 Debug Leaving method { Engine.NgConfig.NgConfigEngine: System.String FindNgConfig(System.String, System.String ByRef)}
+2018-10-05 09:46:32.5836 Debug Invoking method {Engine.NgConfig.NgConfigEngine: System.String FindNgConfig(System.String, System.String ByRef)}
+2018-10-05 09:46:32.5836 Trace Leaving NgConfigEngine:FindNgConfig...
+2018-10-05 09:46:32.5836 Info path=
+2018-10-05 09:46:32.5836 Trace Checking for NgConfig in C:\Windows\
+2018-10-05 09:46:32.5836 Trace NgConfig.ini located at: C:\Windows\NGConfig.ini
+2018-10-05 09:46:32.5836 Debug Leaving method { Engine.NgConfig.NgConfigEngine: System.String FindNgConfig(System.String, System.String ByRef)}
+2018-10-05 09:46:32.5836 Debug Invoking method {Engine.NgConfig.NgConfigEngine: Models.NgConfig.NgConfigModel GetNgConfigModel(System.String, System.Collections.Generic.List`1[System.String], Models.Vcp.FlagsAndOverrideModel)}
+2018-10-05 09:46:32.5836 Trace Entering NgConfigEngine:GetNgConfigModel...
+2018-10-05 09:46:32.5836 Info LocalDirectory = C:\NextgenServerDrive =C:\Nextgen\InstallVersionControlFile =NextGen.vcfTargetEnvironment =5.9..1.44ShellProgram =NGAppLauncher.exeShellProgramDescription = NextGenErrorLogFile =C:\NextGen\Err\Err.logShellProgramFirst =NMA\NextGen.ManagementAgent.Application.exeSource1 =NGDemo591UserId =saPassword = ******
+2018-10-05 09:46:32.5836 Trace Entering NgConfigEngine:ValidateNgConfig...
+2018-10-05 09:46:32.5836 Trace Verifying local Version Control File.
+2018-10-05 09:46:32.5836 Trace isNgConfigVailid = False
+2018-10-05 09:46:32.5836 Trace Leaving NgConfigEngine:ValidateNgConfig...
+2018-10-05 09:46:32.5836 Error Target Environment 5.9..1.44 does not Exist at specified location C:\Nextgen\Install
+2018-10-05 09:46:32.5836 Trace Leaving NgConfigEngine:GetNgConfigModel...
+2018-10-05 09:46:32.5836 Debug Leaving method { Engine.NgConfig.NgConfigEngine: Models.NgConfig.NgConfigModel GetNgConfigModel(System.String, System.Collections.Generic.List`1[System.String], Models.Vcp.FlagsAndOverrideModel)}
+2018-10-05 09:46:32.5836 Debug Leaving method { Manager.Launcher.LaunchManager: Boolean StartupLoadNgConfig(Models.UpgradeWizard.StartUpModel)}
+2018-10-05 09:46:32.5836 Debug Leaving method { Manager.Launcher.LaunchManager: Boolean StartupLoadNgConfig(Models.UpgradeWizard.StartUpModel)}
+2018-10-05 09:46:32.5836 Debug Leaving method { Manager.Launcher.LaunchManager: Boolean StartupLoadNgConfig(Models.UpgradeWizard.StartUpModel)}
+2018-10-05 09:46:32.5836 Debug Invoking method {Manager.Launcher.LaunchManager: Boolean StartupCheckDbConnectivity(Models.UpgradeWizard.StartUpModel, Models.UpgradeWizard.InstallationInformationModel)}
+2018-10-05 09:46:32.5836 Debug Invoking method {Manager.Launcher.LaunchManager: Boolean StartupCheckDbConnectivity(Models.UpgradeWizard.StartUpModel, Models.UpgradeWizard.InstallationInformationModel)}
+2018-10-05 09:46:32.5836 Debug Invoking method {Manager.Launcher.LaunchManager: Boolean StartupCheckDbConnectivity(Models.UpgradeWizard.StartUpModel, Models.UpgradeWizard.InstallationInformationModel)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.5996 Trace Getting installed version.
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.Cdl: System.String GetVersion()}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.Cdl: System.String GetVersion()}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.Cdl: System.String GetVersion()}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.Cdl: System.String GetVersion()}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.Cdl: System.String GetVersion()}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.Cdl: System.String GetVersion()}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.Cdl: System.String GetVersion()}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.Cdl: System.String GetVersion()}
+2018-10-05 09:46:32.5996 Trace Utility installed version for Cdl loaded successfully.
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.5996 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.5996 Trace Getting installed version.
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.Medications: System.String GetVersion()}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.Medications: System.String GetVersion()}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.Medications: System.String GetVersion()}
+2018-10-05 09:46:32.5996 Debug Invoking method {DataAccess.Wizard.Medications: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.Medications: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.Medications: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.Medications: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.Medications: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Trace Utility installed version for Medications loaded successfully.
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.6136 Trace Getting installed version.
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.Formularies: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.Formularies: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.Formularies: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.Formularies: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.Formularies: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.Formularies: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.Formularies: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.Formularies: System.String GetVersion()}
+2018-10-05 09:46:32.6136 Trace Utility installed version for Formularies loaded successfully.
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String InstalledVersion(Models.UpgradeWizard.UtilityType)}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetProductVersion(System.String)}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetNGCareVersion()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetNGCareVersion()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetNGCareVersion()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetNGCareVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetNGCareVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetNGCareVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetNGCareVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetNGCareVersion()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetCGVersion()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetCGVersion()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetCGVersion()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetCGVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetCGVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetCGVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetCGVersion()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetCGVersion()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.Dictionary`2[System.String,System.String] ProductLicenses()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.Dictionary`2[System.String,System.String] ProductLicenses()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.Dictionary`2[System.String,System.String] ProductLicenses()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.Dictionary`2[System.String,System.String] ProductLicenses()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.Dictionary`2[System.String,System.String] ProductLicenses()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.Dictionary`2[System.String,System.String] ProductLicenses()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.Dictionary`2[System.String,System.String] ProductLicenses()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.Dictionary`2[System.String,System.String] ProductLicenses()}
+2018-10-05 09:46:32.6136 Debug Leaving method { Manager.Launcher.LaunchManager: Boolean StartupCheckDbConnectivity(Models.UpgradeWizard.StartUpModel, Models.UpgradeWizard.InstallationInformationModel)}
+2018-10-05 09:46:32.6136 Debug Leaving method { Manager.Launcher.LaunchManager: Boolean StartupCheckDbConnectivity(Models.UpgradeWizard.StartUpModel, Models.UpgradeWizard.InstallationInformationModel)}
+2018-10-05 09:46:32.6136 Debug Leaving method { Manager.Launcher.LaunchManager: Boolean StartupCheckDbConnectivity(Models.UpgradeWizard.StartUpModel, Models.UpgradeWizard.InstallationInformationModel)}
+2018-10-05 09:46:32.6136 Debug Invoking method {Manager.Launcher.LaunchManager: Boolean AuthorizePermissionForSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Invoking method {Manager.Launcher.LaunchManager: Boolean AuthorizePermissionForSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Invoking method {Manager.Launcher.LaunchManager: Boolean AuthorizePermissionForSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Trace Entering SqlJobs:GetAllSqlJobs...
+2018-10-05 09:46:32.6136 Trace Leaving SqlJobs:GetAllSqlJobs.
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Leaving method { Manager.Launcher.LaunchManager: Boolean AuthorizePermissionForSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Leaving method { Manager.Launcher.LaunchManager: Boolean AuthorizePermissionForSqlJobs()}
+2018-10-05 09:46:32.6136 Debug Leaving method { Manager.Launcher.LaunchManager: Boolean AuthorizePermissionForSqlJobs()}
+2018-10-05 09:46:32.6286 Trace Prerequisites Check was Successfull
+2018-10-05 09:46:40.1326 Debug Invoking method {Manager.Launcher.LaunchManager: Models.NgConfig.NgConfigModel LoadNgConfig()}
+2018-10-05 09:46:40.1326 Debug Invoking method {Manager.Launcher.LaunchManager: Models.NgConfig.NgConfigModel LoadNgConfig()}
+2018-10-05 09:46:40.1326 Debug Invoking method {Manager.Launcher.LaunchManager: Models.NgConfig.NgConfigModel LoadNgConfig()}
+2018-10-05 09:46:40.1326 Debug Invoking method {Engine.NgConfig.NgConfigEngine: System.String FindNgConfig(System.String, System.String ByRef)}
+2018-10-05 09:46:40.1326 Trace Leaving NgConfigEngine:FindNgConfig...
+2018-10-05 09:46:40.1326 Info path=
+2018-10-05 09:46:40.1326 Trace Checking for NgConfig in C:\Windows\
+2018-10-05 09:46:40.1326 Trace NgConfig.ini located at: C:\Windows\NGConfig.ini
+2018-10-05 09:46:40.1326 Debug Leaving method { Engine.NgConfig.NgConfigEngine: System.String FindNgConfig(System.String, System.String ByRef)}
+2018-10-05 09:46:40.1326 Debug Invoking method {Engine.NgConfig.NgConfigEngine: Models.NgConfig.NgConfigModel GetNgConfigModel(System.String, System.Collections.Generic.List`1[System.String], Models.Vcp.FlagsAndOverrideModel)}
+2018-10-05 09:46:40.1326 Trace Entering NgConfigEngine:GetNgConfigModel...
+2018-10-05 09:46:40.1326 Info LocalDirectory = C:\NextgenServerDrive =C:\Nextgen\InstallVersionControlFile =NextGen.vcfTargetEnvironment =5.9..1.44ShellProgram =NGAppLauncher.exeShellProgramDescription = NextGenErrorLogFile =C:\NextGen\Err\Err.logShellProgramFirst =NMA\NextGen.ManagementAgent.Application.exeSource1 =NGDemo591UserId =saPassword = ******
+2018-10-05 09:46:40.1326 Trace Entering NgConfigEngine:ValidateNgConfig...
+2018-10-05 09:46:40.1326 Trace Verifying local Version Control File.
+2018-10-05 09:46:40.1326 Trace isNgConfigVailid = False
+2018-10-05 09:46:40.1326 Trace Leaving NgConfigEngine:ValidateNgConfig...
+2018-10-05 09:46:40.1326 Error Target Environment 5.9..1.44 does not Exist at specified location C:\Nextgen\Install
+2018-10-05 09:46:40.1326 Trace Leaving NgConfigEngine:GetNgConfigModel...
+2018-10-05 09:46:40.1326 Debug Leaving method { Engine.NgConfig.NgConfigEngine: Models.NgConfig.NgConfigModel GetNgConfigModel(System.String, System.Collections.Generic.List`1[System.String], Models.Vcp.FlagsAndOverrideModel)}
+2018-10-05 09:46:40.1326 Debug Leaving method { Manager.Launcher.LaunchManager: Models.NgConfig.NgConfigModel LoadNgConfig()}
+2018-10-05 09:46:40.1326 Debug Leaving method { Manager.Launcher.LaunchManager: Models.NgConfig.NgConfigModel LoadNgConfig()}
+2018-10-05 09:46:40.1326 Debug Leaving method { Manager.Launcher.LaunchManager: Models.NgConfig.NgConfigModel LoadNgConfig()}
+2018-10-05 09:46:40.1326 Debug Invoking method {Manager.Launcher.LaunchManager: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Invoking method {Manager.Launcher.LaunchManager: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Invoking method {Manager.Launcher.LaunchManager: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Leaving method { Manager.Launcher.LaunchManager: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Leaving method { Manager.Launcher.LaunchManager: System.String GetDatabaseName()}
+2018-10-05 09:46:40.1326 Debug Leaving method { Manager.Launcher.LaunchManager: System.String GetDatabaseName()}
+2018-10-05 09:46:40.8096 Debug Invoking method {Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:46:40.8096 Debug Invoking method {Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:46:40.8096 Debug Leaving method { Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:46:40.8096 Debug Leaving method { Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:46:40.8096 Debug Invoking method {Manager.DeploymentDashboard.Deployment: Void ProcessFile(System.Collections.ObjectModel.ObservableCollection`1[Models.DeploymentDashboard.ServerInformation], System.String[])}
+2018-10-05 09:46:40.8096 Debug Leaving method { Manager.DeploymentDashboard.Deployment: Void ProcessFile(System.Collections.ObjectModel.ObservableCollection`1[Models.DeploymentDashboard.ServerInformation], System.String[])}
+2018-10-05 09:46:41.6116 Debug Invoking method {Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:41.6116 Debug Invoking method {Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:41.6146 Trace Exporting file C:\Users\vghagarwale\AppData\Local\NextGenConsoleConfigData\TerminalServerConfiguration.json
+2018-10-05 09:46:41.6146 Debug Leaving method { Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:41.6146 Debug Leaving method { Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:41.8386 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8386 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8386 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String PatchVersion(System.String)}
+2018-10-05 09:46:41.8386 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String PatchVersion(System.String)}
+2018-10-05 09:46:41.8496 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Info Clinical Templates Installed Version is NULL or Empty
+2018-10-05 09:46:41.8496 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Debug Invoking method {Engine.FileDownload.FileDownloadBase: Boolean get_NgCareFileList()}
+2018-10-05 09:46:41.8496 Debug Leaving method { Engine.FileDownload.FileDownloadBase: Boolean get_NgCareFileList()}
+2018-10-05 09:46:41.8496 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String GetNgCareVersion(System.String, Boolean)}
+2018-10-05 09:46:41.8496 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String GetNgCareVersion(System.String, Boolean)}
+2018-10-05 09:46:41.8856 Info Formularies upgrade version not available.
+2018-10-05 09:46:41.8856 Info Clinical Templates is not currently installed
+2018-10-05 09:46:41.8856 Info Document Import is not currently installed
+2018-10-05 09:46:41.8856 Info NextGen Communication Services does not have valid license. Unable to perform upgrade.
+2018-10-05 09:46:41.8856 Info Dashboard is not currently installed
+2018-10-05 09:46:47.7636 Debug Entering CopyDirectories Method..
+2018-10-05 09:46:47.8386 Debug Invoking method {Manager.Launcher.LaunchManager: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Invoking method {Manager.Launcher.LaunchManager: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Invoking method {Manager.Launcher.LaunchManager: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Leaving method { Manager.Launcher.LaunchManager: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Leaving method { Manager.Launcher.LaunchManager: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Leaving method { Manager.Launcher.LaunchManager: System.String GetDBServerName(System.String ByRef)}
+2018-10-05 09:46:47.8386 Debug Invoking method {Engine.Installer.SystemPreReq: System.Collections.Generic.List`1[Models.UpgradeWizard.ProductSystemRequirement] ValidateSystemRequirementForProducts(System.Collections.Generic.List`1[Models.UpgradeWizard.ServiceInformation], System.IProgress`1[System.Int32], System.String)}
+2018-10-05 09:46:47.9026 Info Os Version Major 6, minor 1, Os product type client
+2018-10-05 09:46:47.9326 Debug Leaving method { Engine.Installer.SystemPreReq: System.Collections.Generic.List`1[Models.UpgradeWizard.ProductSystemRequirement] ValidateSystemRequirementForProducts(System.Collections.Generic.List`1[Models.UpgradeWizard.ServiceInformation], System.IProgress`1[System.Int32], System.String)}
+2018-10-05 09:46:50.4926 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.4926 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.4926 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.4926 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Trace Entering SqlJobs:GetAllSqlJobs...
+2018-10-05 09:46:50.4926 Trace Leaving SqlJobs:GetAllSqlJobs.
+2018-10-05 09:46:50.4926 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.4926 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.4926 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.4926 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.5166 Debug Invoking method {Manager.Launcher.LaunchManager: Models.UpgradeWizard.DatabaseBackupModel GetBackupModel()}
+2018-10-05 09:46:50.5166 Debug Invoking method {Manager.Launcher.LaunchManager: Models.UpgradeWizard.DatabaseBackupModel GetBackupModel()}
+2018-10-05 09:46:50.5166 Debug Invoking method {Manager.Launcher.LaunchManager: Models.UpgradeWizard.DatabaseBackupModel GetBackupModel()}
+2018-10-05 09:46:50.5166 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.5166 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.5166 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.5166 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.5166 Trace Gathering Database Backup Info Started.
+2018-10-05 09:46:50.5216 Trace DB Backup Server : NGBLR-00467
+2018-10-05 09:46:50.5216 Trace DB Backup PhysicalDeviceName : E:\Upgrade team files\44.bak
+2018-10-05 09:46:50.5216 Trace DB Backup BackupName : NGDemo591-Full Database Backup
+2018-10-05 09:46:50.5216 Trace DB Backup BackupDescription : 11
+2018-10-05 09:46:50.5216 Trace DB Backup LastBackupDate : NGDemo591 on NGBLR-00467 was last backed up on 7/18/2018 2:10:24 PM
+2018-10-05 09:46:50.5216 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.5216 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.5216 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.5216 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.5216 Debug Leaving method { Manager.Launcher.LaunchManager: Models.UpgradeWizard.DatabaseBackupModel GetBackupModel()}
+2018-10-05 09:46:50.5216 Debug Leaving method { Manager.Launcher.LaunchManager: Models.UpgradeWizard.DatabaseBackupModel GetBackupModel()}
+2018-10-05 09:46:50.5216 Debug Leaving method { Manager.Launcher.LaunchManager: Models.UpgradeWizard.DatabaseBackupModel GetBackupModel()}
+2018-10-05 09:46:50.5216 Debug Invoking method {Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:46:50.5216 Debug Invoking method {Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:46:50.5216 Debug Leaving method { Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:46:50.5216 Debug Leaving method { Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:46:50.5216 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.5216 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.5216 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.5216 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Trace Entering SqlJobs:GetAllSqlJobs...
+2018-10-05 09:46:50.5216 Trace Leaving SqlJobs:GetAllSqlJobs.
+2018-10-05 09:46:50.5216 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.5216 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.5216 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.5216 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.7856 Debug Invoking method {Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:50.7856 Debug Invoking method {Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:50.7856 Trace Exporting file C:\Users\vghagarwale\AppData\Local\NextGenConsoleConfigData\DBBackupInfoConfiguration.json
+2018-10-05 09:46:50.7876 Debug Leaving method { Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:50.7876 Debug Leaving method { Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:50.8636 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.8636 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.8636 Debug Invoking method {Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.8636 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8636 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8636 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8636 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8636 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8636 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8636 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8636 Debug Invoking method {DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8636 Trace Entering SqlJobs:GetAllSqlJobs...
+2018-10-05 09:46:50.8646 Trace Leaving SqlJobs:GetAllSqlJobs.
+2018-10-05 09:46:50.8646 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8646 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8646 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8646 Debug Leaving method { DataAccess.Wizard.SqlJobs: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8646 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8646 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8646 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8646 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: System.Collections.Generic.List`1[Models.UpgradeWizard.SqlJobsModel] GetAllSqlJobs()}
+2018-10-05 09:46:50.8646 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.8646 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.8646 Debug Leaving method { Manager.Launcher.LaunchManager: System.Collections.ObjectModel.ObservableCollection`1[Models.UpgradeWizard.SqlJobsModel] GetActiveSqlJobs(Int32)}
+2018-10-05 09:46:50.9226 Debug Invoking method {Manager.Launcher.LaunchManager: Models.UpgradeWizard.DatabaseBackupModel GetBackupModel()}
+2018-10-05 09:46:50.9226 Debug Invoking method {Manager.Launcher.LaunchManager: Models.UpgradeWizard.DatabaseBackupModel GetBackupModel()}
+2018-10-05 09:46:50.9226 Debug Invoking method {Manager.Launcher.LaunchManager: Models.UpgradeWizard.DatabaseBackupModel GetBackupModel()}
+2018-10-05 09:46:50.9226 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.9226 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.9226 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.9226 Debug Invoking method {DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.9226 Trace Gathering Database Backup Info Started.
+2018-10-05 09:46:50.9226 Trace DB Backup Server : NGBLR-00467
+2018-10-05 09:46:50.9226 Trace DB Backup PhysicalDeviceName : E:\Upgrade team files\44.bak
+2018-10-05 09:46:50.9226 Trace DB Backup BackupName : NGDemo591-Full Database Backup
+2018-10-05 09:46:50.9226 Trace DB Backup BackupDescription : 11
+2018-10-05 09:46:50.9226 Trace DB Backup LastBackupDate : NGDemo591 on NGBLR-00467 was last backed up on 7/18/2018 2:10:24 PM
+2018-10-05 09:46:50.9226 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.9226 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.9226 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.9226 Debug Leaving method { DataAccess.Wizard.WizardDataAccess: Void DatabaseBackupInfo(Models.UpgradeWizard.DatabaseBackupModel)}
+2018-10-05 09:46:50.9226 Debug Leaving method { Manager.Launcher.LaunchManager: Models.UpgradeWizard.DatabaseBackupModel GetBackupModel()}
+2018-10-05 09:46:50.9226 Debug Leaving method { Manager.Launcher.LaunchManager: Models.UpgradeWizard.DatabaseBackupModel GetBackupModel()}
+2018-10-05 09:46:50.9226 Debug Leaving method { Manager.Launcher.LaunchManager: Models.UpgradeWizard.DatabaseBackupModel GetBackupModel()}
+2018-10-05 09:46:52.1806 Debug Invoking method {Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:46:52.1806 Debug Invoking method {Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:46:52.1806 Debug Leaving method { Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:46:52.1806 Debug Leaving method { Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:46:52.1936 Debug Invoking method {Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:52.1936 Debug Invoking method {Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:52.1936 Trace Exporting file C:\Users\vghagarwale\AppData\Local\NextGenConsoleConfigData\ClinicalDataLoaderConfiguration.json
+2018-10-05 09:46:52.1936 Debug Leaving method { Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:52.1936 Debug Leaving method { Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:55.2716 Trace install Version is ase Plan...
+2018-10-05 09:46:55.2716 Trace install Version is ase Plan...
+2018-10-05 09:46:56.8056 Trace install Version is ase Plan...
+2018-10-05 09:46:56.8166 Debug Invoking method {Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:56.8166 Debug Invoking method {Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:56.8166 Trace Exporting file C:\Users\vghagarwale\AppData\Local\NextGenConsoleConfigData\ClinicalDataLoaderConfiguration.json
+2018-10-05 09:46:56.8166 Debug Leaving method { Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:56.8166 Debug Leaving method { Engine.Json.JsonEngine: Void Export[SaveConfiguration](Models.UpgradeWizard.SaveConfiguration, System.String)}
+2018-10-05 09:46:57.7256 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:57.7256 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:46:58.4316 Debug Invoking method {Engine.FileDownload.FileDownloadBase: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:46:58.4316 Debug Leaving method { Engine.FileDownload.FileDownloadBase: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:46:58.4316 Debug Invoking method {Engine.FileDownload.FileDownloadBase: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:46:58.4316 Debug Leaving method { Engine.FileDownload.FileDownloadBase: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:46:58.4316 Debug Invoking method {Engine.FileDownload.FileDownloadBase: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:46:58.4316 Debug Leaving method { Engine.FileDownload.FileDownloadBase: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:46:58.4316 Debug Invoking method {Engine.FileDownload.FileDownloadBase: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:46:58.4316 Debug Leaving method { Engine.FileDownload.FileDownloadBase: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:46:58.4316 Debug Invoking method {Engine.FileDownload.FileDownloadBase: Void set_LoggerTarget(System.String)}
+2018-10-05 09:46:58.4316 Debug Leaving method { Engine.FileDownload.FileDownloadBase: Void set_LoggerTarget(System.String)}
+2018-10-05 09:46:58.4456 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.Threading.Tasks.Task`1[System.Boolean] DownloadFile(System.String, System.String, Boolean)}
+2018-10-05 09:46:58.7426 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.Threading.Tasks.Task`1[System.Boolean] DownloadFile(System.String, System.String, Boolean)}
+2018-10-05 09:49:14.1896 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String get_DownLoadStartTime()}
+2018-10-05 09:49:14.1896 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String get_DownLoadStartTime()}
+2018-10-05 09:49:14.1896 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String get_DownLoadEndTime()}
+2018-10-05 09:49:14.1896 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String get_DownLoadEndTime()}
+2018-10-05 09:49:16.1956 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.1956 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.1956 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.1956 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.1956 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.1956 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.1956 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.1956 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.1956 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.1956 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.1956 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.1956 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.1956 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.1956 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.1956 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.1956 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.1956 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.1956 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.1956 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.1956 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.1956 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2026 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2026 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2026 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2026 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_LoggerTarget(System.String)}
+2018-10-05 09:49:16.2026 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_LoggerTarget(System.String)}
+2018-10-05 09:49:16.2026 Debug Invoking method {Manager.Launcher.LaunchManager: Void set_LoggerTarget(System.String)}
+2018-10-05 09:49:16.2026 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_LoggerTarget(System.String)}
+2018-10-05 09:49:16.2026 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_LoggerTarget(System.String)}
+2018-10-05 09:49:16.2026 Debug Leaving method { Manager.Launcher.LaunchManager: Void set_LoggerTarget(System.String)}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:49:16.2026 Debug Leaving method { Engine.FileDownload.FileDownloadBase: System.String GetFullFileName(System.String, Boolean)}
+2018-10-05 09:49:16.2026 Debug Invoking method {Manager.Launcher.LaunchManager: System.String UnZipPackageFiles(System.String, System.String)}
+2018-10-05 09:49:16.2026 Debug Invoking method {Manager.Launcher.LaunchManager: System.String UnZipPackageFiles(System.String, System.String)}
+2018-10-05 09:49:16.2026 Debug Invoking method {Manager.Launcher.LaunchManager: System.String UnZipPackageFiles(System.String, System.String)}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.ZipHelper.Zip: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.ZipHelper.Zip: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.ZipHelper.Zip: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2026 Debug Leaving method { Engine.ZipHelper.Zip: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2026 Debug Leaving method { Engine.ZipHelper.Zip: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2026 Debug Leaving method { Engine.ZipHelper.Zip: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.ZipHelper.Zip: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.ZipHelper.Zip: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.ZipHelper.Zip: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.2026 Debug Leaving method { Engine.ZipHelper.Zip: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.2026 Debug Leaving method { Engine.ZipHelper.Zip: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.2026 Debug Leaving method { Engine.ZipHelper.Zip: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.ZipHelper.Zip: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.ZipHelper.Zip: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.ZipHelper.Zip: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.2026 Debug Leaving method { Engine.ZipHelper.Zip: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.2026 Debug Leaving method { Engine.ZipHelper.Zip: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.2026 Debug Leaving method { Engine.ZipHelper.Zip: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.ZipHelper.Zip: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.ZipHelper.Zip: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2026 Debug Invoking method {Engine.ZipHelper.Zip: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2176 Debug Leaving method { Engine.ZipHelper.Zip: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2176 Debug Leaving method { Engine.ZipHelper.Zip: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2176 Debug Leaving method { Engine.ZipHelper.Zip: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:16.2176 Debug Invoking method {Engine.ZipHelper.Zip: System.String UnzipFile(System.String, System.String)}
+2018-10-05 09:49:16.2176 Debug Invoking method {Engine.ZipHelper.Zip: System.String UnzipFile(System.String, System.String)}
+2018-10-05 09:49:16.2176 Debug Invoking method {Engine.ZipHelper.Zip: System.String UnzipFile(System.String, System.String)}
+2018-10-05 09:49:16.2496 Error Exception caught in Interception, rethrow to caller:   ZipEntry::ReadDirEntry(): Bad signature (0xD510F596) at position 0x02539A0A
+2018-10-05 09:49:16.2496 Debug Leaving method { Manager.Launcher.LaunchManager: System.String UnZipPackageFiles(System.String, System.String)}
+2018-10-05 09:49:16.2496 Debug Leaving method { Manager.Launcher.LaunchManager: System.String UnZipPackageFiles(System.String, System.String)}
+2018-10-05 09:49:16.2496 Debug Leaving method { Manager.Launcher.LaunchManager: System.String UnZipPackageFiles(System.String, System.String)}
+2018-10-05 09:49:20.2796 Debug Invoking method {Engine.DataLoader.AppConfigSection: Void Initialize(Models.DataLoader.ImportModel)}
+2018-10-05 09:49:20.2796 Debug Leaving method { Engine.DataLoader.AppConfigSection: Void Initialize(Models.DataLoader.ImportModel)}
+2018-10-05 09:49:20.2796 Debug Invoking method {Manager.DataLoaders.DataXferController: Void set_LoggerTarget(System.String)}
+2018-10-05 09:49:20.2796 Debug Leaving method { Manager.DataLoaders.DataXferController: Void set_LoggerTarget(System.String)}
+2018-10-05 09:49:20.2796 Debug Invoking method {Manager.DataLoaders.DataXferController: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:20.2796 Debug Leaving method { Manager.DataLoaders.DataXferController: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:20.2796 Debug Invoking method {Manager.DataLoaders.DataXferController: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:20.2796 Debug Leaving method { Manager.DataLoaders.DataXferController: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:20.2796 Debug Invoking method {Manager.DataLoaders.DataXferController: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:20.2796 Debug Leaving method { Manager.DataLoaders.DataXferController: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:20.2796 Debug Invoking method {Manager.DataLoaders.DataXferController: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:20.2896 Debug Leaving method { Manager.DataLoaders.DataXferController: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:20.2896 Debug Invoking method {Manager.DataLoaders.DataXferController: Boolean ProcessFiles(Models.DataLoader.DataProcessingModel)}
+2018-10-05 09:49:20.2896 Debug Invoking method {Engine.DataLoader.DataLoader: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:20.2896 Debug Leaving method { Engine.DataLoader.DataLoader: Void set_ProgressLabel(System.IProgress`1[System.String])}
+2018-10-05 09:49:20.2896 Debug Invoking method {Engine.DataLoader.DataLoader: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:20.2896 Debug Leaving method { Engine.DataLoader.DataLoader: Void set_ProgressCounter(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:20.2896 Debug Invoking method {Engine.DataLoader.DataLoader: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:20.2896 Debug Leaving method { Engine.DataLoader.DataLoader: Void set_MaximumProgress(System.IProgress`1[System.Int32])}
+2018-10-05 09:49:20.2896 Debug Invoking method {Engine.DataLoader.DataLoader: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:20.2896 Debug Leaving method { Engine.DataLoader.DataLoader: Void set_PercentIndicator(System.IProgress`1[System.String])}
+2018-10-05 09:49:20.2896 Debug Invoking method {Engine.DataLoader.DataLoader: Boolean ProcessFiles(Models.DataLoader.DataProcessingModel)}
+2018-10-05 09:49:20.2896 Debug Invoking method {Engine.DataLoader.AppConfigSection: System.String GetUtilityName()}
+2018-10-05 09:49:20.2896 Debug Leaving method { Engine.DataLoader.AppConfigSection: System.String GetUtilityName()}
+2018-10-05 09:49:20.3046 Debug Invoking method {Engine.DataLoader.AppConfigSection: System.String ImportPath()}
+2018-10-05 09:49:20.3046 Debug Leaving method { Engine.DataLoader.AppConfigSection: System.String ImportPath()}
+2018-10-05 09:49:20.3046 Debug Invoking method {Engine.DataLoader.AppConfigSection: System.String ImportPath()}
+2018-10-05 09:49:20.3046 Debug Leaving method { Engine.DataLoader.AppConfigSection: System.String ImportPath()}
+2018-10-05 09:49:20.3046 Debug Invoking method {Engine.DataLoader.AppConfigSection: System.String GetUtilityName()}
+2018-10-05 09:49:20.3046 Debug Leaving method { Engine.DataLoader.AppConfigSection: System.String GetUtilityName()}
+2018-10-05 09:49:20.3046 Debug Leaving method { Engine.DataLoader.DataLoader: Boolean ProcessFiles(Models.DataLoader.DataProcessingModel)}
+2018-10-05 09:49:20.3046 Debug Leaving method { Manager.DataLoaders.DataXferController: Boolean ProcessFiles(Models.DataLoader.DataProcessingModel)}
+2018-10-05 09:54:17.3046 Debug Invoking method {Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:54:17.3046 Debug Invoking method {Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:54:17.3046 Debug Leaving method { Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:54:17.3046 Debug Leaving method { Engine.Json.JsonEngine: Models.UpgradeWizard.SaveConfiguration Import[SaveConfiguration](System.String)}
+2018-10-05 09:59:38.5816 Debug Invoking method {Manager.Launcher.LaunchManager: Boolean get_NGConfigRestart()}
+2018-10-05 09:59:38.5816 Debug Invoking method {Manager.Launcher.LaunchManager: Boolean get_NGConfigRestart()}
+2018-10-05 09:59:38.5816 Debug Invoking method {Manager.Launcher.LaunchManager: Boolean get_NGConfigRestart()}
+2018-10-05 09:59:38.5816 Debug Leaving method { Manager.Launcher.LaunchManager: Boolean get_NGConfigRestart()}
+2018-10-05 09:59:38.5816 Debug Leaving method { Manager.Launcher.LaunchManager: Boolean get_NGConfigRestart()}
+2018-10-05 09:59:38.5816 Debug Leaving method { Manager.Launcher.LaunchManager: Boolean get_NGConfigRestart()}

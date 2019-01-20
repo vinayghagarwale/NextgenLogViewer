@@ -1,0 +1,257 @@
+﻿<UserControl x:Class="NextgenLogViewer.Views.NextGenLogViewerView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        BorderBrush="#FFB35546"
+        BorderThickness="2">
+    <UserControl.Resources>
+        <Style x:Key="NgTab"
+               TargetType="TabItem">
+            <Setter Property="Foreground" Value="#FFB35546"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="FontStyle" Value="Normal"/>
+            <Setter Property="FontSize" Value="22"/>
+        </Style>
+
+        <Style x:Key="NgButton"
+               TargetType="Button"
+               BasedOn="{StaticResource MetroFlatButton}">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#FFB35546"/>
+        </Style>
+        <Style x:Key="styleLinkLabel">
+            <Setter Property="TextBlock.TextDecorations" Value="Underline" />
+            <Setter Property="TextBlock.Foreground" Value="#FFB35546"/>
+            <Setter Property="TextBlock.FontSize" Value="16"/>
+        </Style>
+        <Style x:Key="NgLabel"
+                   TargetType="Label">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="20,0,0,0"/>
+        </Style>
+        <Style x:Key="NgHeader"
+               TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="Margin" Value="0,0,0,0"/>
+        </Style>
+    </UserControl.Resources>
+
+    <ContentControl>
+        <Grid Background="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Select Log File" Margin="10,0,0,0" />
+                <TextBox Grid.Column="1"  
+                         Grid.Row="0"
+                         IsReadOnly="True"
+                         Name="txtFilePath"
+                         Height="30">
+                    <TextBox.Text>
+                        <Binding Path="FilePath" 
+                                 UpdateSourceTrigger="PropertyChanged"                                 
+                                 NotifyOnValidationError="True"
+                                 ValidatesOnDataErrors="True">
+                            <Binding.ValidationRules>
+                                <DataErrorValidationRule></DataErrorValidationRule>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                    <TextBox.InputBindings>
+                        <KeyBinding Key="Enter" Command="{Binding Path=SaveFileLocationBrowseAction}"/>
+                    </TextBox.InputBindings>
+                </TextBox>
+                <Button Content="Browse"
+                        Name="btnBrowse"
+                        Style="{StaticResource NgButton}"
+                        Width="100"
+                        Height="30"
+                        Grid.Column="2"
+                        Click="btnBrowse_Click"/>
+                <Button Content="Load"
+                        Style="{StaticResource NgButton}"
+                        Width="75"
+                        Height="30"
+                        Grid.Column="3"
+                        Command="{Binding Path=LoadLogFile}"/>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+
+                <CheckBox Content="All Log" 
+                          IsChecked="{Binding Path=IsCheckAll, Mode=TwoWay }"
+                          Command="{Binding Path=CheckAll}"
+                          Margin="10,0,0,0" />
+                <CheckBox Grid.Column="1" 
+                          Content="Errors" 
+                          IsChecked="{Binding Path=IsChkError, Mode=TwoWay }"
+                          Command="{Binding Path=CheckErrors}"
+                          Background="#FFE6B4B4" />
+                <CheckBox Grid.Column="2" 
+                          Content="Fatal" 
+                          IsChecked="{Binding Path=IsChkFatal, Mode=TwoWay }"
+                          Command="{Binding Path=CheckFatal}"
+                          Background="#FFB0E6B5" />
+                <CheckBox Grid.Column="3" 
+                          Content="Warning" 
+                          IsChecked="{Binding Path=IsChkWarning, Mode=TwoWay }"
+                          Command="{Binding Path=CheckWarning}"
+                          Background="#FFE1C2E2" />
+                <CheckBox Grid.Column="4" 
+                          Content="Debug" 
+                          IsChecked="{Binding Path=IsChkDebug, Mode=TwoWay }"
+                          Command="{Binding Path=CheckDebug}"
+                          Background="#FFEAE7CC" />
+                <CheckBox Grid.Column="5" 
+                          Content="Trace" 
+                          IsChecked="{Binding Path=IsChkTrace, Mode=TwoWay }"
+                          Command="{Binding Path=CheckTrace}"
+                          Background="#FFD4D4D4" />
+                <CheckBox Grid.Column="6" 
+                          Content="Info" 
+                          IsChecked="{Binding Path=IsChkInfo, Mode=TwoWay }"
+                          Command="{Binding Path=CheckInfo}"
+                          Background="#FFC1E4E6" />
+                <CheckBox Grid.Column="7" 
+                          Content="SQL Queries" 
+                          IsChecked="{Binding Path=IsCheckSQL, Mode=TwoWay }"
+                          Command="{Binding Path=CheckSQL}"
+                          Background="#FF7497B9" />
+                <TextBlock Grid.Column="8" 
+                           Text="Time Elapsed"
+                           Visibility ="{Binding Timeelapsedvisibility}" />
+                <TextBox Grid.Column="9" 
+                         x:Name="TimeElapsed" 
+                         Visibility ="{Binding Timeelapsedvisibility}"
+                         Text="{Binding Path=TimeElapsed}"/>
+                <TextBlock Grid.Column="10" 
+                           Text="ms"
+                           Visibility ="{Binding Timeelapsedvisibility}" />
+                <Button Content=" >> "
+                        Grid.Column="11" 
+                        Name="btnTimeElapsedSearch"
+                        Visibility ="{Binding Timeelapsedvisibility}"
+                        Style="{StaticResource NgButton}"   
+                        Click="btnTimeElapsedSearch_Click"
+                        Command="{Binding Path=TimeElapsedSearch}"                        
+                        Width="50"
+                        Height="30" />
+            </Grid>
+
+            <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBlock Text="Search :" Width="100" TextAlignment="Center" />
+                <TextBox x:Name="txtSearch" Width="250" TextChanged="txtSearch_TextChanged" />
+                <Button Content=" >> "
+                        Name="btnSearch"
+                        Style="{StaticResource NgButton}"                         
+                        Width="50"
+                        Height="30" />
+            </StackPanel>
+            <DataGrid IsReadOnly="True" 
+                      Name="grid"
+                      AutoGenerateColumns="False"
+                      ItemsSource="{Binding Path=lstGrid}"
+                      CanUserAddRows="False"
+                      HorizontalScrollBarVisibility="Auto"
+                      VerticalScrollBarVisibility="Auto"
+                      CanUserDeleteRows="False"
+                      IsTextSearchEnabled="True"
+                      IsTextSearchCaseSensitive="False"
+                      TextSearch.Text="Error"
+                      Grid.Row="6" Margin="10,0,0,0">
+                <DataGrid.RowStyle>
+                    <Style TargetType="DataGridRow">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding logType}" Value="Error">
+                                <Setter Property="Background" Value="#FFE6B4B4"></Setter>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding logType}" Value="Fatal">
+                                <Setter Property="Background" Value="#FFB0E6B5"></Setter>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding logType}" Value="Warning">
+                                <Setter Property="Background" Value="#FFE1C2E2"></Setter>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding logType}" Value="Debug">
+                                <Setter Property="Background" Value="#FFEAE7CC"></Setter>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding logType}" Value="Trace">
+                                <Setter Property="Background" Value="#FFD4D4D4"></Setter>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding logType}" Value="Info">
+                                <Setter Property="Background" Value="#FFC1E4E6"></Setter>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding logType}" Value="SQL">
+                                <Setter Property="Background" Value="#FF7497B9"></Setter>
+                            </DataTrigger>
+                            
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.RowStyle>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Log Date" Width="100" Binding="{Binding Path=logdate}" FontSize="16" FontWeight="Medium" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Log Time" Width="110" Binding="{Binding Path=logtime}" FontSize="16" FontWeight="Medium" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Time Elapsed ( ms )" Width="140" Binding="{Binding Path=TraceTime}" CanUserSort="True" FontSize="16" FontWeight="Medium" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Log Type" Width="80" Binding="{Binding Path=logType}" FontSize="16" FontWeight="Medium" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Log Message" Width="*" Binding="{Binding Path=logmessage}" FontSize="16" FontWeight="Medium" IsReadOnly="True"/>
+
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <StatusBar Background="White" 
+                       Foreground="Black" 
+                       Grid.Row="7" >
+                <StatusBar.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Time Spent" Command="{Binding Path=sTimeSpent}">
+
+                        </MenuItem>
+                    </ContextMenu>
+                </StatusBar.ContextMenu>
+                <StatusBarItem>
+                    <TextBlock HorizontalAlignment="Left" 
+                               Text="{Binding Path=ShowStatus}"/>
+                </StatusBarItem>
+            </StatusBar>
+            <controls:ProgressRing Name="Progress" 
+                               HorizontalAlignment="Center" 
+                               Visibility ="{Binding ProcessIndicator}" 
+                               Height="155" 
+                               RenderTransformOrigin="0.742,4.183" 
+                               Margin="148,10,736,-28" 
+                               Width="216" Grid.RowSpan="6" Grid.Row="2"/>
+        </Grid>
+
+
+    </ContentControl>
+</UserControl>
