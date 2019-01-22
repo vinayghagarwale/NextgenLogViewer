@@ -9,7 +9,7 @@ using NextgenLogViewer.Resource;
 using NextgenLogViewer.Models;
 using System.Threading.Tasks;
 using System.Diagnostics;
-
+//abc
 namespace NextgenLogViewer.ViewModel
 {
     public class NextgenLogViewerViewModel : INotifyPropertyChanged
